@@ -1,0 +1,37 @@
+.comments {
+    // background-color: #f7f8f8;
+    background-color: #f8f8f8;
+    
+
+    &__title {
+        font-family: $EurostileLTStd-Demi;
+        color: #db302c;
+        font-size: 28px;
+        text-align: center;
+        padding: 55px 0 45px;
+
+    }
+
+    &__content {
+        font-family: $HelveticaOblique;
+        font-size: 20px;
+        line-height: 26px;
+        padding: 25px 30px;
+        background: #fff;
+        margin-bottom: 10px;
+    }
+
+    &__author,
+    &__status {
+        text-align: right;
+        font-family: $HelveticaOblique;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    &__status {
+        margin-bottom: 20px;
+    }
+
+    padding-bottom: 1px;
+}

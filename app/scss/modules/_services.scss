@@ -1,0 +1,70 @@
+.services {
+    text-align: center;
+    
+
+    .container-services{
+        border-bottom: 1px solid #d4d4d4;
+    }
+
+    &__title {
+        color: #db302c;
+        font-size: 32px;
+        padding-top: 50px;
+        margin-bottom: 20px;
+
+    }
+
+    &__discription {
+        font-family: $Helvetica;
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 50px;
+    }
+
+
+    .service-card {
+
+        &__box {
+            display: inline-block;
+            background-color: #db302c;
+            border-radius: 50%;
+            padding: 20px;
+            width: 85px;
+            margin-bottom: 10px;
+        }
+
+        // &__img {}
+
+        &__title {
+            font-family: $EurostileLTStd-Demi;
+            margin-bottom: 20px;
+        }
+
+        &__discription {
+            font-family: $Helvetica;
+            font-size: 16px;
+            line-height: 23px;
+        }
+    }
+
+    .first-row-services {
+        margin-bottom: 50px;
+    }
+
+    .second-row-services {
+        margin-bottom: 65px;
+    }
+
+    .services-link {
+        display: inline-block;
+        text-decoration: none;
+        padding: 25px 65px;
+        background-color: #ffdd00;
+        color: black;
+        font-family: $Helvetica;
+        font-weight: 700;
+        margin-bottom: 35px;
+    }
+
+    
+}

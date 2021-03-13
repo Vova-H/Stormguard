@@ -1,0 +1,101 @@
+.baner {
+    background: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // min-height: 100vh;
+    font-family: $EurostileLTStd-Demi;
+
+    a {
+        text-decoration: none;
+    }
+
+    .container-baner {
+        padding-top: 225px;
+    }
+
+    &__text {
+        padding: 65px 80px 35px 30px;
+        background: rgba($color: #000000, $alpha: .7);
+        display: inline-block;
+        color: white;
+        font-size: 34px;
+        margin-bottom: 120px;
+
+    }
+
+    &__contact {
+        display: inline-block;
+        margin-top: 55px;
+        font-size: 16px;
+        padding: 20px 20px 20px 25px;
+        background-color: #ffdd00;
+
+
+    }
+
+    .contact__link {
+        font-family: $Helvetica;
+        font-weight: 700;
+        color: #000;
+    }
+
+    &__text>span {
+
+        color: #ffdd00;
+
+    }
+
+    .icon-arrow-black {
+        margin-left: 7px;
+    }
+
+    &__find {
+        background-color: #ffdd00;
+    }
+
+    .find__text {
+        margin-right: 100px;
+
+        p:first-child {
+            font-size: 38px;
+            font-family: $EurostileLTStd-Demi;
+            margin-bottom: 5px;
+        }
+
+        p:last-child {
+            font-size: 16px;
+        }
+    }
+
+    .container-baner__find {
+        display: flex;
+        // padding: 0 40px;
+        align-items: flex-end;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        font-family: $Helvetica;
+        font-weight: 700;
+    }
+
+    .marker-img {
+        margin-right: 25px;
+    }
+
+    &__input {
+        min-height: 55px;
+        min-width: 220px;
+        padding-left: 15px;
+        color: #bababa;
+        border: 1px solid #bababa;
+        font-size: 18px;
+    }
+
+    &__btn {
+        padding: 20px 40px;
+        background-color: #db302c;
+        color: #fff;
+        font-size: 18px;
+
+    }
+}

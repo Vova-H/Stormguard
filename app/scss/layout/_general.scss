@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body,
+html {
+	min-height: 100%;
+	width: 100%;
+}
+
+
+// Main styles
+
+.container{
+	max-width: 1200px;
+	padding: 0;
+}
+
+
+/* Dots */
+.slick-dotted.slick-slider{
+    margin-bottom: 30px;
+	
+}
+.slick-dots{
+    display: flex;
+	justify-content: center;
+	margin-bottom: 35px;
+}
+.slick-dots li {
+    // float: left;
+    margin: 0 8px 0 0 ;
+    cursor: pointer;
+	border-color: black;
+}
+.slick-dots li:last-child {
+    margin-right: 0;
+}
+.slick-dots li.slick-active button {
+    background-color: black;
+}
+.slick-dots li button {
+    display: block;
+    width: 15px;
+    border-radius: 50%;
+    height: 15px;
+    cursor: pointer;
+    color: transparent;
+	background-color: #fff;
+	border-color: black;
+
+	&:focus{
+		outline: none;
+	}
+	
+}
+// .slick-dots li:nth-child(2) button {
+//     background-image: url(../img/gp2.jpg);
+// }
+// .slick-dots li:nth-child(3) button {
+//     background-image: url(../img/gp3.jpg);
+// }
+// .slick-dots li:nth-child(4) button {
+//     background-image: url(../img/gp4.jpg);
+// }

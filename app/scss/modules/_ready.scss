@@ -1,0 +1,71 @@
+.ready {
+    padding-top: 100px;
+    text-align: center;
+
+    &__title {
+        font-family: $EurostileLTStd-Demi;
+        font-size: 32px;
+        color: #db302c;
+        margin-bottom: 15px;
+    }
+
+    &__discription {
+        font-family: $Helvetica;
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 25px;
+    }
+
+    .col-4-ready {
+        padding: 0;
+    }
+
+    .repair-img-wraper {
+        overflow: hidden;
+        height: 240px;
+        position: relative;
+    }
+
+    .repair-img{
+        height: 240px;
+        width: 100%;
+        
+    }
+
+
+    .ready-card {
+        max-width: 31%;
+        text-decoration: none;
+        padding: 0;
+        font-family: $EurostileLTStd-Demi;
+        font-size: 20px;
+        color: black;
+        
+
+        &-title {
+            bottom: 0px;
+            left: 0;
+            position: absolute;
+            padding: 10px 0 10px 20px;
+
+
+            text-align: left;
+            display: inline-block;
+            width: 100%;
+            background-color: #ffdd00;
+
+        }
+
+        &-title>img {
+            margin-left: 10px;
+        }
+
+        margin-right: 25px;
+        margin-bottom: 50px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+}
