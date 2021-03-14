@@ -3,7 +3,7 @@
 (function ($) {
 	$(document).ready(function () {
 		// Code
-
+		
 		$('.slider').slick({
 				dots: true, // включение точек
 				arrows: false, // включение стрелок
@@ -16,7 +16,5 @@
 				infinite: true,
 			}
 		);
-
-
 	});
 })(jQuery);

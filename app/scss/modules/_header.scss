@@ -3,7 +3,6 @@
     // width: 100%;
     left: 0;
     right: 0;
-    
     font-family: $Helvetica;
     font-weight: 700;
 
@@ -28,7 +27,22 @@
         .slogan-link {
             color: #ffdd00;
             position: relative;
-            // margin-right: 10px;
+            
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 0%;
+                height: 1px;
+                left: 0%;
+                bottom: 0;
+                background-color: #ffdd00;
+                transition: all .5s;
+            }
+
+            &:hover::after{
+                width: 100%;
+            }
         }
 
         .icon-arrow {
@@ -41,6 +55,16 @@
 
         .top-menu-item {
             margin-left: 25px;
+            
+
+            &-link{
+                transition: all .3s;
+            }
+
+            &-link:hover{
+                color: #ffdd00;
+               
+            }
 
             &:first-child {
                 margin-left: 0;
@@ -75,7 +99,17 @@
                 margin-left: 0;
             }
 
-            &-link {font-size: 16px;}
+            &-link {
+                font-size: 16px;
+                transition: all .3s;
+
+                &:hover{
+                    color: #ffdd00;
+                    
+                }
+            }
+
+
         }
 
     }

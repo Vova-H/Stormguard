@@ -64,7 +64,11 @@
         font-family: $Helvetica;
         font-weight: 700;
         margin-bottom: 35px;
-    }
+        transition: all .3s;
 
+        &:hover{
+            box-shadow: 10px 10px rgba(0, 0, 0, .7); 
+        }
+    }
     
 }

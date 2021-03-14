@@ -74,7 +74,15 @@
                 font-size: 16px;
                 color: #db302c;
                 margin-bottom: 30px;
+                transition: all .3s;
+
+                &:hover{
+                    background-color: #ffdd00;
+                    color: black;
+
+                }
             }
+
         }
     }
 
@@ -109,6 +117,14 @@
             font-weight: 700;
             color: #db302c;
             text-decoration: none;
+
+            transition: all .3s;
+
+                &:hover{
+                    background-color: #ffdd00;
+                    color: black;
+
+                }
         }
     }
 
