@@ -26,10 +26,10 @@
         position: relative;
     }
 
-    .repair-img{
+    .repair-img {
         height: 240px;
         width: 100%;
-        
+
     }
 
 
@@ -40,7 +40,7 @@
         font-family: $EurostileLTStd-Demi;
         font-size: 20px;
         color: black;
-        
+
 
         &-title {
             bottom: 0px;
@@ -63,9 +63,47 @@
         margin-right: 25px;
         margin-bottom: 50px;
 
-        &:last-child{
+        &:last-child {
             margin-right: 0;
         }
     }
 
+}
+
+@media(max-width:450px) {
+    .ready {
+        .ready-card {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (min-width:460px) and (max-width:800px) {
+    .ready {
+        .ready-card {
+            max-width: 30%;
+            margin: 0;
+            margin-right: 20px;
+            padding: 0;
+            margin-bottom: 40px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &-title {
+                bottom: -50px;
+            }
+        }
+
+        .repair-img {
+            height: auto;
+        }
+        .repair-img-wraper{
+            height: auto;
+        }
+    }
 }

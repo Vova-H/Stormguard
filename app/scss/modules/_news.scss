@@ -114,3 +114,44 @@
     }
 
 }
+
+
+@media(max-width:450px) {
+ 
+
+    .news{
+        .post{
+            max-width: 100%;
+            margin: 0;
+            margin-bottom: 40px;
+
+        }
+    }
+}
+
+
+@media (min-width:460px) and (max-width:800px) {
+    .news{
+        .container{
+            max-width: 700px;            
+        }
+        .post{
+            max-width: 30%;
+            &__title{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width:1020px)  {
+    .news{
+        .post{
+            max-width: 30%;
+            &__title{
+                font-size: 30px;
+            }
+        }
+    }
+}
+

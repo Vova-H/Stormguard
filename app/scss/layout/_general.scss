@@ -18,13 +18,21 @@ html {
 }
 
 
+
 // Main styles
 
 .container{
-	max-width: 1200px;
+	// max-width: 1200px;
 	padding: 0;
 }
 
+a:focus{
+	text-decoration: none;
+}
+
+.row{
+	margin: 0;
+}
 
 // .slick-dots li:nth-child(2) button {
 //     background-image: url(../img/gp2.jpg);

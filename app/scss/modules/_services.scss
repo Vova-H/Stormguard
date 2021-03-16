@@ -1,8 +1,8 @@
 .services {
     text-align: center;
-    
 
-    .container-services{
+
+    .container-services {
         border-bottom: 1px solid #d4d4d4;
     }
 
@@ -49,13 +49,15 @@
 
     .first-row-services {
         margin-bottom: 50px;
+
     }
 
     .second-row-services {
         margin-bottom: 65px;
+
     }
 
-    .services-link {
+    &-link {
         display: inline-block;
         text-decoration: none;
         padding: 25px 65px;
@@ -66,9 +68,22 @@
         margin-bottom: 35px;
         transition: all .3s;
 
-        &:hover{
-            box-shadow: 10px 10px rgba(0, 0, 0, .7); 
+        &:hover {
+            box-shadow: 10px 10px rgba(0, 0, 0, .7);
         }
     }
-    
+
+}
+
+
+@media(max-width:450px) {
+    .services {
+        .service-card {
+            padding: 0;
+        }
+
+        &-link {
+            text-decoration: none;
+        }
+    }
 }

@@ -1,7 +1,7 @@
 .comments {
     // background-color: #f7f8f8;
     background-color: #f8f8f8;
-    
+
 
     &__title {
         font-family: $EurostileLTStd-Demi;
@@ -34,4 +34,18 @@
     }
 
     padding-bottom: 1px;
+}
+
+
+@media(max-width:450px) {
+
+    
+    .comments {
+        &__author,
+        &__status{
+            margin-right: 20px;
+        }
+
+
+    }
 }

@@ -3,6 +3,7 @@
     padding-top: 40px;
 
     .contact {
+        // padding: 0;
 
         &__title {
             font-family: $EurostileLTStd-Demi;
@@ -23,8 +24,7 @@
         &__form {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
-            // justify-content: right;
+            justify-content: right;
 
 
 
@@ -67,7 +67,7 @@
 
 
             &__btn {
-                margin-left: 79%;
+                margin-left: 77%;
                 padding: 25px 35px;
                 font-family: $Helvetica;
                 font-weight: 700;
@@ -76,7 +76,7 @@
                 margin-bottom: 30px;
                 transition: all .3s;
 
-                &:hover{
+                &:hover {
                     background-color: #ffdd00;
                     color: black;
 
@@ -120,11 +120,11 @@
 
             transition: all .3s;
 
-                &:hover{
-                    background-color: #ffdd00;
-                    color: black;
+            &:hover {
+                background-color: #ffdd00;
+                color: black;
 
-                }
+            }
         }
     }
 
@@ -134,8 +134,10 @@
 
     .photo-box {
         margin-bottom: 25px;
-        width: 100%;
         border: solid 1px white;
+        max-width: 21%;
+        margin-right: 20px;
+        padding: 0;
     }
 
     .photo {
@@ -147,4 +149,90 @@
 
 
 
+}
+
+
+
+
+@media (max-width: 450px) {
+
+    .contact-gallery {
+
+        .gallery {
+            &__link {
+                margin-bottom: 30px;
+            }
+        }
+
+        .contact {
+            &__form__btn {
+                margin: 0;
+                margin-bottom: 50px;
+
+            }
+
+            &__form__field {
+                width: 100%;
+                margin-right: 0;
+            }
+
+
+            &__form {
+                justify-content: right;
+            }
+
+        }
+
+        .photo-box {
+            margin-bottom: 25px;
+            border: solid 1px white;
+            max-width: 44%;
+            padding: 0;
+            // margin-right: 20px;
+        }
+
+    }
+
+
+
+    .contact-gallery .photo {
+        // width: 50%;
+        height: auto;
+    }
+}
+
+@media (min-width:460px) and (max-width:800px) {
+    .contact-gallery {
+
+        .gallery {
+            &__link {
+                margin-bottom: 30px;
+            }
+        }
+
+        .contact {
+            &__form__btn {
+                margin: 0;
+                margin-bottom: 50px;
+                // margin-left: 76%;
+
+            }
+
+            &__form__field {
+                width: 100%;
+                margin-right: 0;
+            }
+
+
+        }
+
+        .photo-box {
+            margin-bottom: 25px;
+            border: solid 1px white;
+            max-width: 44%;
+            padding: 0;
+            // margin-right: 20px;
+        }
+
+    }
 }

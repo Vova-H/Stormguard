@@ -101,9 +101,63 @@
         font-size: 18px;
         transition: all .3s;
 
-        &:hover{
-            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+        &:hover {
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 10px rgba(0, 0, 0, 0.22);
         }
 
+    }
+}
+
+
+@media (max-width:450px) {
+    .baner {
+        .container-baner {
+            padding-top: 400px;
+
+            &__find {
+                flex-direction: column;
+                align-items: center;
+            }
+
+        }
+
+        .find__text {
+            margin: 0;
+            text-align: center;
+
+            p {
+                margin-bottom: 20px;
+
+                &:first-child {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+
+    }
+}
+
+@media (max-width:350px) {
+    .baner {
+        .container-baner {
+            padding-top: 550px;
+        }
+
+        &__input{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (min-width:460px) and (max-width:800px ) {
+    .baner {
+        .container-baner {
+            padding-top: 400px;
+        }
+
+        &__input{
+            margin-bottom: 10px;
+        }
     }
 }
